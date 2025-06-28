@@ -67,3 +67,25 @@ The Requirement Analysis process consists of several key activities that ensure 
 - **✅ Requirement Validation**  
   Review and validate the requirements with stakeholders.  
   Define acceptance criteria and ensure traceability.
+## 🧩 Types of Requirements
+
+### Functional Requirements
+
+Functional requirements define **what** the system should do — the core features and actions the software must support. For the booking management system, examples include:
+
+- **Hotel Management:** Hotel managers can add, update, and manage hotel information through a dedicated portal.
+- **Search:** Customers can search hotels by location, availability, and other criteria, supported by a fast search engine (ElasticSearch).
+- **Booking:** Users can make, view, and cancel bookings with real-time availability checks.
+- **Payment Processing:** The system integrates with third-party payment services to process payments securely.
+- **Notifications:** The system sends notifications to customers and managers (e.g., booking confirmations, new offers) using a messaging queue and notification consumers.
+
+### Non-functional Requirements
+
+Non-functional requirements specify **how** the system performs and quality attributes important to stakeholders. Examples from the case study include:
+
+- **Scalability:** The system uses microservices architecture with load balancers and multiple servers to handle high user traffic efficiently.
+- **Performance:** Use of caching (Redis) and fast search engines (ElasticSearch) to reduce response times and improve user experience.
+- **Reliability:** Data replication with master-slave databases and backup storage (Cassandra) ensures data consistency and availability.
+- **Security:** Secure handling of payment information and user data, with system components isolated by service boundaries.
+- **Maintainability:** Modular microservice design enables easier updates and scaling of individual components without affecting the entire system.
+- **Data Consistency:** Use of messaging queues (Kafka, RabbitMQ) ensures eventual consistency and reliable communication between services.
