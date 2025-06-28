@@ -116,3 +116,33 @@ Non-functional requirements specify **how** the system performs and quality attr
 - Receive Notifications
 - View Booking History
 ![Use Case Diagram](alx-booking-uc.png)
+## 📌 Acceptance Criteria
+
+### What is Acceptance Criteria?
+
+**Acceptance Criteria** are a set of predefined requirements that must be met for a feature to be considered complete and accepted by stakeholders. They are written in clear, simple language and help ensure that the development team and stakeholders share a common understanding of the feature’s functionality.
+
+---
+
+### 🔍 Importance of Acceptance Criteria in Requirement Analysis
+
+- ✅ **Clarifies expectations**: Ensures developers, testers, and stakeholders are aligned on what needs to be built.
+- 🧪 **Guides testing**: Defines how a feature should be tested and when it passes.
+- 🛠️ **Prevents scope creep**: Clearly outlines boundaries, so only the required functionality is delivered.
+- 📋 **Improves communication**: Serves as a checklist during development and review.
+- 🧑‍💻 **Enables user-centric development**: Keeps the focus on delivering value to the end user.
+
+---
+
+### ✅ Example: Acceptance Criteria for the **Checkout** Feature
+
+> **Feature**: Checkout – allows users to finalize and confirm their hotel booking.
+
+**Acceptance Criteria:**
+- User must be logged in to proceed to checkout.
+- User must select at least one hotel room to proceed.
+- System must display total price, taxes, and applicable discounts.
+- User must be able to choose a payment method (e.g., card, wallet).
+- Payment must be processed securely via third-party payment gateway.
+- Upon successful payment, the system must display a confirmation message and send a booking confirmation email.
+- If payment fails, the system must inform the user and allow retry.
