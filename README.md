@@ -89,3 +89,30 @@ Non-functional requirements specify **how** the system performs and quality attr
 - **Security:** Secure handling of payment information and user data, with system components isolated by service boundaries.
 - **Maintainability:** Modular microservice design enables easier updates and scaling of individual components without affecting the entire system.
 - **Data Consistency:** Use of messaging queues (Kafka, RabbitMQ) ensures eventual consistency and reliable communication between services.
+## 🎯 Use Case Diagrams
+
+**Use Case Diagrams** are visual representations used in Requirement Analysis to illustrate the interactions between users (actors) and the system. They help to clarify the system’s functional requirements by showing which actors perform which use cases (actions or services provided by the system).
+
+### Benefits of Use Case Diagrams:
+- Provide a clear overview of system functionality from the user's perspective.
+- Help identify all user roles (actors) and their interactions.
+- Facilitate communication between stakeholders and developers.
+- Assist in identifying missing requirements or potential system boundaries.
+
+### Actors and Use Cases for the Booking Management System:
+
+**Actors:**
+- Hotel Manager
+- Customer
+- Payment Gateway
+- Notification Service
+
+**Use Cases:**
+- Manage Hotel Information
+- Search Hotels
+- Make Booking
+- Cancel Booking
+- Process Payment
+- Receive Notifications
+- View Booking History
+![Use Case Diagram](alx-booking-uc.png)
