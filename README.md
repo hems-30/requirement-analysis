@@ -1,4 +1,4 @@
-# requirement-analysis
+# Requirement-analysis
 ## 📌 Purpose of the Repository
 
 This repository serves as a structured workspace to perform and document the **requirement analysis phase** of a software project — specifically for a **Booking Management System**.
