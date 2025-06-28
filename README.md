@@ -44,3 +44,26 @@ By understanding what needs to be built, teams can accurately estimate time, res
 
 ### 3. ✅ Enhances Product Quality and User Satisfaction
 Well-defined requirements guide the development and testing phases, ensuring the final product behaves as expected. This leads to fewer bugs, better performance, and higher satisfaction among users and clients.
+## 🔍 Key Activities in Requirement Analysis
+
+The Requirement Analysis process consists of several key activities that ensure the success of a software project by thoroughly understanding and defining what needs to be built.
+
+- **📥 Requirement Gathering**  
+  Engage with stakeholders to collect initial requirements.  
+  Use various techniques like interviews, surveys, and workshops.
+
+- **🗣️ Requirement Elicitation**  
+  Refine and elaborate on the gathered requirements.  
+  Use techniques like brainstorming, focus groups, and prototyping.
+
+- **📝 Requirement Documentation**  
+  Document the requirements in a detailed and structured format.  
+  Use requirement specification documents, user stories, and use cases.
+
+- **📊 Requirement Analysis and Modeling**  
+  Analyze and prioritize the requirements.  
+  Create models to visualize and understand the requirements.
+
+- **✅ Requirement Validation**  
+  Review and validate the requirements with stakeholders.  
+  Define acceptance criteria and ensure traceability.
